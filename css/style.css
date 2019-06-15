@@ -1,0 +1,53 @@
+body {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/trianglify.svg");
+    background-size: cover;
+
+}
+
+.container{
+    
+    top: 10px;
+}
+
+
+header h1 {
+
+    float: left;
+    width: 80%;
+    vertical-align: middle;
+    margin: 0;
+
+}
+
+.logo {
+
+    width: 20%
+}
+
+h5 {
+    margin-top: 20px;
+    clear: both;
+}
+
+.button {
+    width: 85%;
+    display: block;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1.2px solid #B6B3B3;
+
+}
+
+.button:hover {
+    background-color: seagreen;
+    border-color: seagreen;
+    color: white;
+}

@@ -64,7 +64,7 @@ function drawScatterplot(data, x, y, c, boxModel, innerPadding, r, alpha){
         var c10 = d3.schemeCategory10;
 
         // create SVG Element
-        var svg = d3.select("body").append("svg")
+        var svg = d3.select("div").append("svg")
         .attr("width", boxModel.w)
         .attr("height", boxModel.h)
         .append("g")

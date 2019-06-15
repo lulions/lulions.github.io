@@ -36,7 +36,7 @@ window.onload = function(){
     var alpha = 1;
 
     // load data and draw
-    d3.csv("iris.csv", rowConverter).then(function(data){
+    d3.csv("data/iris.csv", rowConverter).then(function(data){
 
         drawScatterplot(data, x, y, c, boxModel, innerPadding, r, alpha);
         
