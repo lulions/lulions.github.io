@@ -81,6 +81,11 @@ h5 {
     margin-top: 0;
 }
 
+#profile .main blockquote span {
+
+    font-weight: bold;
+}
+
 #profile:target {
 
     display: block;
@@ -88,3 +93,9 @@ h5 {
 }
 
 
+hr {
+    margin-left: 40%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-color: #B6B3B3;
+}
