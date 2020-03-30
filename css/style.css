@@ -22,9 +22,28 @@ body{
     width: 20px;
 }
 
+.navbar-toggler label {
+    font-size: 5px;
+}
+
+.navbar-dark a {
+    font-size: 2.5vw;
+}
 
 @media (min-width: 500px) {
     .navbar-dark .navbar-text {
        font-size: 54px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .navbar-dark a {
+        font-size: 20px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .navbar-dark a {
+        font-size: 15px;
     }
   }
