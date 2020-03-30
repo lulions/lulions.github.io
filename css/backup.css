@@ -1,0 +1,91 @@
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    background-image: url("../images/trianglify.svg");
+    background-size: cover;
+}
+
+
+
+header h1 {
+    float: left;
+    width: 80%;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.logo {
+
+    width: 20%
+}
+
+h5 {
+    margin-top: 20px;
+    clear: both;
+}
+
+.button {
+    width: 85%;
+    display: block;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1.2px solid #B6B3B3;
+
+}
+
+.button:hover {
+
+    background-color: seagreen;
+    border-color: seagreen;
+    color: white;
+}
+
+#profile {
+    display: none;
+    margin-top: 30px;
+}
+
+#profile img {
+    float: left;
+    width: 35%;
+}
+
+#profile .side img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#profile .main p, #profile .main blockquote {
+
+    margin-left: 37%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#profile .main blockquote span {
+
+    font-weight: bold;
+}
+
+#profile:target {
+
+    display: block;
+
+}
+
+
+hr {
+    margin-left: 37%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-color: #B6B3B3;
+}
