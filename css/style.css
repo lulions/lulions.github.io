@@ -1,49 +1,75 @@
 
 body{
-    font-size: 100%;
     font-family: 'Raleway';
     background-color: #d8f3ee ;
+}
+
+.container-fluid{
+
+    padding-left: 3vw;
+    padding-right: 3vw;
+
 }
 
 .navbar{
     padding-bottom:2px;
     padding-top:2px;
-}
-
-.navbar-dark .navbar-text{
-    font-size: 10vw;
-    font-weight: 100;
-    padding:0;
-    padding-right: 4vw;
-    color:#d8f3ee;
+    margin-bottom: 1.5vw;
 }
 
 .navbar-toggler-icon{
     width: 20px;
 }
 
-.navbar-toggler label {
-    font-size: 5px;
+.header-body{
+    font-size: calc(100% + 0.8vw);
+}
+
+.par-body{
+    font-size: calc(100% + 0.4vw);
+    text-align: justify;
 }
 
 .navbar-dark a {
-    font-size: 2.5vw;
+    font-size: calc(80% + 0.4vw);
 }
 
-@media (min-width: 500px) {
-    .navbar-dark .navbar-text {
-       font-size: 54px;
-    }
-  }
+.navbar-dark .navbar-text{
+    font-size: calc(150% + 1vw);
+    font-weight: 100;
+    padding-right: 4vw;
+    color:#d8f3ee;
+}
 
-  @media (min-width: 700px) {
-    .navbar-dark a {
-        font-size: 20px;
-    }
-  }
+.myperson{
+    width: 25%;
+    min-width: 195px;
+    position: fixed;
+    left: 65%;
+    bottom: 0;
+    filter: drop-shadow(-10px 10px 10px rgb(0, 0, 0));
+    animation: appear 2s;
+    animation-fill-mode: forwards;
+}
 
-  @media (max-width: 575px) {
-    .navbar-dark a {
-        font-size: 15px;
+/* @keyframes appear {
+    0% { left: 100%;  }
+    100% { left: 65%;  }  
+ } */
+
+@media (max-width: 650px) {
+
+    .myperson{
+        width: 25%;
+        min-width: 195px;
+        position: fixed;
+        display: block;
+        left: 50%;
+        margin-left: -97.5px;
+        bottom: 0;
+        filter: drop-shadow(-10px 10px 10px rgb(0, 0, 0));
+        animation: appear 2s;
+        animation-fill-mode: forwards;
     }
+
   }
