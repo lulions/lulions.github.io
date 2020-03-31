@@ -45,7 +45,7 @@ body{
     width: 25%;
     min-width: 195px;
     position: fixed;
-    left: 65%;
+    left: calc(65vw - 50px);
     bottom: 0;
     filter: drop-shadow(-10px 10px 10px rgb(0, 0, 0));
     animation: appear 2s;
@@ -57,7 +57,7 @@ body{
     100% { left: 65%;  }  
  } */
 
-@media (max-width: 650px) {
+@media (max-width: 300px) {
 
     .myperson{
         width: 25%;
