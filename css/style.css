@@ -45,7 +45,7 @@ body{
     width: 25%;
     min-width: 195px;
     position: fixed;
-    left: calc(65vw - 50px);
+    right: calc(5vw);
     bottom: 0;
     filter: drop-shadow(-10px 10px 10px rgb(0, 0, 0));
     animation: appear 2s;
