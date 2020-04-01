@@ -27,7 +27,36 @@ body{
 
 .par-body{
     font-size: calc(100% + 0.4vw);
+    /* text-align: justify; */
+}
+
+.card-body .par-body{
     text-align: justify;
+    color: #d8f3ee;
+}
+
+.card-header .btn{
+    text-align: left;
+    color: #d8f3ee;
+    font-weight: 300;
+    border-width: 0px;
+}
+
+.card-header{
+    border-width: 0;
+    margin-bottom: 0;
+}
+
+.btn:focus {outline:none !important;box-shadow: none !important;}
+
+.card-body{
+    padding: 3vw;
+    background-color: #55595e;
+}
+
+.card-header{
+    padding: 1vw;
+    background-color: #343a40;
 }
 
 .navbar-dark a {
@@ -42,34 +71,20 @@ body{
 }
 
 .myperson{
-    width: 25%;
-    min-width: 195px;
-    position: fixed;
-    right: calc(5vw);
-    bottom: 0;
-    filter: drop-shadow(-10px 10px 10px rgb(0, 0, 0));
-    animation: appear 2s;
-    animation-fill-mode: forwards;
+    width: 20%;
+    min-width: 100px;
+    float: right;
 }
 
-/* @keyframes appear {
-    0% { left: 100%;  }
-    100% { left: 65%;  }  
- } */
 
-@media (max-width: 300px) {
-
-    .myperson{
-        width: 25%;
-        min-width: 195px;
-        position: fixed;
-        display: block;
-        left: 50%;
-        margin-left: -97.5px;
-        bottom: 0;
-        filter: drop-shadow(-10px 10px 10px rgb(0, 0, 0));
-        animation: appear 2s;
-        animation-fill-mode: forwards;
+@media (min-width: 600px) {
+    .accordion {
+      display: none;
     }
+  }
 
+@media (max-width: 600px) {
+    .long-text {
+      display: none;
+    }
   }
